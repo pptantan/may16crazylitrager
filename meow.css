@@ -139,3 +139,12 @@ body {
 .section:nth-child(11) .fixed {
     transform: translate(-50%, -50%);
   }
+.section:nth-child(12) {
+    background-color: #fff;
+  color: #000;
+  top: 1100vh;
+  z-index: 12;
+}
+.section:nth-child(12) .fixed {
+  transform: translate(-50%, -50%);
+}
